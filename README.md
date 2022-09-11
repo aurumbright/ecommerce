@@ -1,6 +1,15 @@
 # E-Commerce Back End
 
 ## Description
+This project covers the back end for an e-commerce site by modifying starter code. It includes GET, POST, PUT, and DELETE routes for Products, Tags, and Categories for an e-commerce site.
+
+This application uses Express.js, Sequelize, dotenv, and a MySQL database.
+
+## Mock-Up
+
+The walkthrough video shows the GET, POST, PUT, and DELETE routes. [Click here to view the full video.](https://drive.google.com/file/d/1zLU0W5AiMjxaj18uwM2e9FxAD1eTw9iZ/view?usp=sharing) The following gif shows the first GET route.
+
+![A short gif showing the application being tested in Insomnia.](./Assets/ecommerce.gif)
 
 
 ## User Story
@@ -26,24 +35,3 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
-
-## Mock-Up
-
-The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
-
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
-
-The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
-
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
-
-The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
-
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
-
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
-
-
-### Sync Sequelize to the Database on Server Start
-
-Create the code needed in `server.js` to sync the Sequelize models to the MySQL database on server start.
